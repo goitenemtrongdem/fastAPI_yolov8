@@ -20,12 +20,4 @@ int partition(vector<int>& a,int l,int r){//10 7 8 3 5 1 6
      quickSort(a,pi+1,r);
     }
  }
-int main(){
-    vector<int> a={10, 7, 8 ,3 ,5 ,1, 6};
-    int n=a.size();
-    quickSort(a,0,n-1);
-    for(auto i=0;i<a.size();i++){
-   cout<<a[i]<<" ";
-    }
-    return 0;
-}
+ 
